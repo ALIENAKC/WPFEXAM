@@ -1,0 +1,21 @@
+﻿<Window x:Class="WPFEXAM.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFEXAM"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid Background="Silver" Margin="0,0,2,0">
+        <TextBlock Text="Info about Us" FontSize="70" FontFamily="Times New Roman" Margin="0,20,388,325"></TextBlock>
+        <TextBlock FontFamily="Times New Roman" Text="Our instagram" FontSize="23" Margin="0,184,660,194"/>
+        <TextBlock FontFamily="Times New Roman" FontSize="20" Margin="0,126,683,259"><Run Text="Our VK"/>
+        <Hyperlink NavigateUri="https://vk.com/feed"></Hyperlink>
+        </TextBlock>
+        <TextBlock FontFamily="Times New Roman" Text="Our contact number:+7707303077" Margin="10,252,575,119"></TextBlock>
+        <Image Margin="170,184,575,194" Source="instagram.png" Stretch="Fill" RenderTransformOrigin="0.124,0.88"/>
+        <Image Source="vk.png" Stretch="Fill" RenderTransformOrigin="0.441,0.179" Margin="98,126,649,259"/>
+
+
+    </Grid>
+</Window>

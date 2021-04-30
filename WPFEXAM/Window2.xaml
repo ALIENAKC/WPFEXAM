@@ -1,0 +1,21 @@
+﻿<Window x:Class="WPFEXAM.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFEXAM"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid Background="Silver">
+        <TextBlock FontSize="15" HorizontalAlignment="Left" Height="44" Margin="83,44,0,0" TextWrapping="Wrap" Text="Harry Potter collection" VerticalAlignment="Top" Width="123"/>
+        <TextBlock FontSize="15" HorizontalAlignment="Left" Height="44" Margin="358,44,0,0" TextWrapping="Wrap" Text="Hobbit" VerticalAlignment="Top" Width="56"/>
+        <TextBlock FontSize="15" HorizontalAlignment="Left" Height="28" Margin="591,44,0,0" TextWrapping="Wrap" Text="Dark Tower" VerticalAlignment="Top" Width="138"/>
+        <Image Source="/Harry-Potter-Book-List_BL_16-9.jpg.corpimagerendition.xxl.1400.788.png" Margin="10,109,561,185" />
+        <Image Source="C:\Users\Admin\source\repos\WPFEXAM\WPFEXAM\91b0C2YNSrL.jpg" Margin="314,71,337,171"></Image>
+        <Image Source="C:\Users\Admin\source\repos\WPFEXAM\WPFEXAM\boocover.jpg" Margin="574,71,98,163"></Image>
+        <Button Background="DarkRed" Content="Buy" HorizontalAlignment="Left" Height="39" Margin="56,280,0,0" VerticalAlignment="Top" Width="84"/>
+        <Button Background="DarkRed" Content="Buy" HorizontalAlignment="Left" Height="39" Margin="337,280,0,0" VerticalAlignment="Top" Width="77"/>
+        <Button Background="DarkRed" Content="Buy" HorizontalAlignment="Left" Height="39" Margin="591,280,0,0" VerticalAlignment="Top" Width="80"/>
+        <TextBlock Background="Silver" FontSize="20" HorizontalAlignment="Left" Height="29" Margin="218,10,0,0" TextWrapping="Wrap" Text="Popular books" VerticalAlignment="Top" Width="284"/>
+    </Grid>
+</Window>
